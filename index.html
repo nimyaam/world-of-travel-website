@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <h1 class="logo">World of Travel</h1>
+            <ul class="nav-link">
+                <li><a href="#" class="active">Popular Places</a></li>
+                <li><a href="#">Travel Outside</a></li>
+                <li><a href="#">Online Packages</a></li>
+            </ul>
+            <a href="#" class="register-button">Register Now</a>
+            <i class="fa fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <div class="container">
+            <p>Find Your Next Stay</p>
+        </div>
+        <div class="search-bar">
+            <form>
+                <div class="Location-input">
+                    <label>Location</label>
+                    <input type="text" placeholder="where are you going">
+                </div>
+                <div>
+                    <label>check in</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div>
+                    <label>Check out</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div>
+                    <label>Guest</label>
+                    <input type="text" placeholder="Add guest ">
+                </div>
+                <img class=" search-icon" width="27" height="27" src="./images/serchicon.png" alt="search-bar" />
+            </form>
+            <div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="sub-title">Exclusives</h2>
+        <div class="Exclusives">
+            <div>
+                <img src="./images/pic7.jpg" width="150px" height="120px">
+                <span>
+                    <h3>Faroe Islands</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/pic8.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Svalbard</h3>
+                    <p>Starts @ $350</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/pic12.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Socotra Island</h3>
+                    <p>Starts @ $450</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/croatia.jpg" width="130px" height="130px">
+                <span>
+                    <h3>croatia</h3>
+                    <p>Starts @ $950</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/thailand.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Bhutan</h3>
+                    <p>Starts @ $850</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/pic13.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Easter Island</h3>
+                    <p>Starts @ $750</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="./images/pic2.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Hvar</h3>
+                    <p>Starts @ $650</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/pic5.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Lofoten Islands</h3>
+                    <p>Starts @ $550</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="./images/pic3.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Raja Ampat</h3>
+                    <p>Starts @ $450</p>
+                </span>
+            </div>
+            <div>
+                <img src="./images/pic4.jpg" width="130px" height="130px">
+                <span>
+                    <h3>Meteora</h3>
+                    <p>Starts @ $350</p>
+                </span>
+            </div>
+
+
+
+        </div>
+        <h2 class="sub-title">Trending Places</h2>
+        <div class="Trending">
+            <div >
+                <img src="./images/goa.jpg">
+                <h3>Goa</h3>
+            </div>
+            <div>
+                <img src="./images/dubai.jpg">
+                <h3>Dubai</h3>
+            </div>
+            <div>
+                <img src="./images/france.jpg">
+                <h3>France</h3>
+            </div>
+            <div>
+                <img src="./images/new york.jpg">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="cta">
+            <h3>Sharing <br>Is Earning Now </h3>
+            <p>Great opportunity to make money by <br>sharing your extra space</p><br><br>
+            <a href="" class="cta-button">Know More</a>
+        </div>
+
+        <h2 class="sub-title">Travellers Stories</h2>
+        <div class="Stories">
+            <div>
+                <img src="./images/travel1.jpg" width="200px" height="200px">
+                <p>Popular European Countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="./images/travel2.jpg" width="200px" height="200px">
+                <p>Popular European Countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="./images/travel3.jpg" width="200px" height="200px">
+                <p>Popular European Countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="./images/travel4.jpg" width="200px" height="200px">
+                <p>Popular European Countries with a budget of just $10,000</p>
+            </div>
+        </div>
+        <a href="" class="start-button">Start making money</a>
+        <div class="about-msg">
+            <h2>About World of Travel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis consequatur modi velit rem aperiam
+                repellendus consectetur qui soluta, recusandae itaque harum error illo aliquam odio maiores saepe iusto
+                dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellendus atque ducimus
+                doloremque eveniet illum, vero quisquam cum eum odio incidunt nihil quos fugit magnam modi expedita
+                itaque. Quasi, perferendis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem accusantium
+                consequatur sed repellat unde. Quia, animi repellat ratione suscipit dolore eum accusantium impedit
+                fugiat aperiam rerum distinctio voluptates temporibus? Perferendis!</p>
+
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: black;"></i>
+                <i class="fa-brands fa-twitter" style="color: black;"></i>
+                <i class="fa-brands fa-facebook" style="color: black;"></i><br><br>
+                <hr><br>
+                <p>@2024 World of Travel.com</p>
+            </div>
+        </div>
+        <script>
+            var navbar = document.getElementById("navbar");
+
+            function togglebtn(){
+                navbar.classList.toggle("hidemenu");
+            
+            }
+        </script>
+        </body>
+</html>
